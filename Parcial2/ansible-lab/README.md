@@ -1,5 +1,4 @@
-
-# Laboratorio Ansible con Docker
+# Segundo Parcial - Jeremi Aquino 20251182
 
 ## Objetivo de la práctica
 
@@ -9,9 +8,9 @@ Crear dos servidores Linux utilizando Docker y administrarlos con Ansible. En es
 
 Para crear e iniciar los dos servidores, ejecutar el siguiente comando:
 
-```bash
+
 docker compose up -d
-```
+
 
 Para comprobar que los contenedores estén funcionando:
 
