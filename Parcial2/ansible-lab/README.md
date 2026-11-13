@@ -8,23 +8,24 @@ Crear dos servidores Linux utilizando Docker y administrarlos con Ansible. En es
 
 Para crear e iniciar los dos servidores, ejecutar el siguiente comando:
 
-
 docker compose up -d
+
 
 
 Para comprobar que los contenedores estén funcionando:
 
-```bash
 docker ps
-```
+
+
 
 ## Ejecutar el Playbook
 
 Desde la carpeta del proyecto, ejecutar:
 
-```bash
 ansible-playbook -i inventory.ini playbook.yml
-```
+
+
+
 
 El Playbook realiza las siguientes tareas en ambos servidores:
 
@@ -33,6 +34,7 @@ El Playbook realiza las siguientes tareas en ambos servidores:
 - Genera el archivo `info.txt` con información del servidor.
 - Crea las carpetas `logs`, `backup` y `config`.
 - Muestra un mensaje cuando detecta que el sistema operativo es Ubuntu.
+
 
 ## Captura de la ejecución
 
